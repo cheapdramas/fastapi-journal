@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Тестщу mysql</title>
+    </head>
+
+
+    <body>
+
+        <form method = 'POST'>
+            <select name="sel_num">
+            {%for number in numbers%}
+
+                <option value = {{number}}>{{number}}</option>
+            {%endfor%}  
+            </select>
+
+
+        <p><input type = 'submit' class = "btn btn-success btn-sm" value = "Відправити"></p>
+        </form>
+        
+
+    </body>
+
+
+<html>
+
